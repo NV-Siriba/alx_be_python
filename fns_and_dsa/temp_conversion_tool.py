@@ -9,7 +9,7 @@ def f_c(f):
 
 while True:
     try:
-       temp_to_convert=int(input("enter temperature to convert:"))
+       temp_to_convert=int(input("Enter the temperature to convert:"))
        break    
     except ValueError:
         print("Invalid temperature. Please enter a numeric value.")
