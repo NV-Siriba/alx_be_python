@@ -4,14 +4,14 @@ operation = input("Choose the operation (+, -, *, /):")
 
 match operation:
     case "+":
-        print(num1 + num2)
+        print(f'The result is{num1 + num2}')
     case "-":
-        print(num1 - num2)
+        print(f'The result is{num1 - num2}')
     case "*":
-        print(num1 * num2)
+        print(f'The result is{num1 * num2}')
     case "/":
         try:
-            print(num1 / num2)
+            print(f'The result is{num1 / num2}')
         except ZeroDivisionError:
             print("Error: Cannot divide by zero.")
     case _:
