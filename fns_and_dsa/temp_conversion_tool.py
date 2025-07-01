@@ -2,10 +2,10 @@ FAHRENHEIT_TO_CELSIUS_FACTOR=5/9
 CELSIUS_TO_FAHRENHEIT_FACTOR= 9/5
 def c_f(c): 
     """Converts temperature from Celsius to Fahrenheit."""
-    return(c-32)*CELSIUS_TO_FAHRENHEIT_FACTOR
+    return(c*CELSIUS_TO_FAHRENHEIT_FACTOR) +32
 def f_c(f):
     """Converts temperature from Fahrenheit to Celsius."""
-    return(f*FAHRENHEIT_TO_CELSIUS_FACTOR)+32
+    return(f-32)*FAHRENHEIT_TO_CELSIUS_FACTOR
 
 while True:
     try:
