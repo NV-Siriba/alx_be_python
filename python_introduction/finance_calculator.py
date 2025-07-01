@@ -1,6 +1,6 @@
 monthly_income=int(input('Enter your monthly income: '))
 total_monthly_expenses=int(input('Enter your total monthly expenses: '))
-Monthly_Savings=monthly_income-total_monthly_expenses
-Projected_Savings = Monthly_Savings * 12 + (Monthly_Savings * 12 * 0.05)
-print(Monthly_Savings)
+monthly_savings=monthly_income-total_monthly_expenses # Changed to monthly_savings
+Projected_Savings = monthly_savings * 12 + (monthly_savings * 12 * 0.05) # Changed to monthly_savings
+print(monthly_savings) # Changed to monthly_savings
 print(Projected_Savings)
